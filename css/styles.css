@@ -585,11 +585,10 @@ width: 208px;
 .form {
     display: flex;
     position: relative;
-    gap: 24px;
 }
 
 .form-text-footer {
-    padding-top: 100px;
+ margin-left: 80px;  
 }
 
 .form-subscribe {
