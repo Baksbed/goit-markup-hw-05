@@ -31,7 +31,7 @@ li {
 .header-background {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -44,8 +44,6 @@ li {
 
 .header-container {
     align-items: center;
-
-
 }
 
 .logo {
@@ -59,7 +57,7 @@ li {
     padding: 24px 0;
     display: block;
     margin-right: 76px;
-position: relative;
+    position: relative;
 }
 
 .contakt-link {
@@ -88,23 +86,29 @@ position: relative;
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
+    padding: 24px 0;
+    display: block;
 }
 
 .current::after {
     content: "";
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        display: block;
-        width: 48px;
-        height: 4px;
-        flex-shrink: 0;
-        border-radius: 2px;
-        background: #404bbf;
-        margin: 20px 0 0 0;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 48px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #404bbf;
 }
+
 .current {
+    content: "";
+    display: block;
     color: #404bbf;
+    position: relative;
+
 }
 
 
@@ -129,7 +133,7 @@ position: relative;
     font-weight: 500;
     letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .header-list:hover,
