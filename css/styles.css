@@ -618,12 +618,13 @@ display: flex;
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: #ffffff;
+    gap: 24px;
 }
 
 .form-input::placeholder {
     color: #ffffff;
 }
-.social-icons-color frame{
+.color frame{
     margin-left: 16px;
 }
 .form-button {
@@ -702,8 +703,8 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24px;
-    height: 24px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #e7e9fc;
