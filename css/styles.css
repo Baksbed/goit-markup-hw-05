@@ -744,7 +744,7 @@ display: flex;
     position: relative;
     display: block;
     flex-direction: column;
-    margin-bottom: 4px;
+    margin-bottom: 16px;
     gap: 24px;
 }
 
@@ -785,6 +785,7 @@ display: flex;
 .form-label-content .form-input-feedback:focus {
     border-color: #4d5ae5;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .form-label-content .form-input-feedback:focus+svg {
