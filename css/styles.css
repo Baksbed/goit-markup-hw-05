@@ -749,7 +749,8 @@ display: flex;
     gap: 24px;
     
 }
-.comment{ margin-bottom: 16px;
+.comment { 
+    margin-bottom: 16px;
 }
 
 
