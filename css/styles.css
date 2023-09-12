@@ -744,7 +744,7 @@ display: flex;
     position: relative;
     display: block;
     flex-direction: column;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
     gap: 24px;
 }
 
