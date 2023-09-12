@@ -675,6 +675,7 @@ display: flex;
 
 .form-label-content {
     position: relative;
+    
 }
 
 .feedback_form {
@@ -746,7 +747,11 @@ display: flex;
     flex-direction: column;
     margin-bottom: 4px;
     gap: 24px;
+    
 }
+.comment{ margin-bottom: 16px;
+}
+
 
 .form-input-feedback:focus>.icons-color-person {
     fill: #4d5ae5;
