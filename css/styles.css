@@ -623,7 +623,9 @@ display: flex;
 .form-input::placeholder {
     color: #ffffff;
 }
-
+.social-icons-color frame{
+    margin-left: 16px;
+}
 .form-button {
     display: flex;
     min-width: 165px;
@@ -742,6 +744,7 @@ display: flex;
     display: block;
     flex-direction: column;
     margin-bottom: 4px;
+    gap: 24px;
 }
 
 .form-input-feedback:focus>.icons-color-person {
