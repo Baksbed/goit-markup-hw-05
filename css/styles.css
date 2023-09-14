@@ -586,6 +586,7 @@ display: flex;
 .form {
     display: flex;
     position: relative;
+    gap: 24px;
 }
 
 .form-text-footer {
@@ -601,6 +602,7 @@ display: flex;
     margin-bottom: 16px;
 }
 
+
 .form-input {
     width: 264px;
     height: 40px;
@@ -612,7 +614,6 @@ display: flex;
     padding-bottom: 8px;
     padding-left: 16px;
     font-family: inherit;
-    margin-right: 24px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -642,8 +643,13 @@ display: flex;
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
-    gap: 16px;
 }
+
+.icons-color-frame { 
+margin-left: 16px;
+}
+
+
 
 /* window*/
 .modal {
